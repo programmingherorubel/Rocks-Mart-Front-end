@@ -1,0 +1,842 @@
+[
+  {
+    "img": "https://i.ibb.co/VLqBZsY/watterbottol-1.jpg",
+    "name": "AquaWave Bottle",
+    "price": 12,
+    "discount": 10,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:11:20.509Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/QYTh9RG/watterbottol-2.jpg",
+    "name": "HydroPeak Bottle",
+    "price": 14,
+    "discount": 20,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:12:33.046Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/dp2mp8y/watterbottol-3.jpg",
+    "name": "PureFlow Bottle",
+    "price": 20,
+    "discount": 8,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:13:18.287Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/d2xpc2R/watterbottol-4.jpg",
+    "name": "AquaFusion Bottle",
+    "price": 25,
+    "discount": 12,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:14:09.650Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/zJ1Kct6/watterbottol-5.jpg",
+    "name": "AquaFusion Bottle",
+    "price": 25,
+    "discount": 10,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:14:33.604Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/vxfWcsb/watterbottol-6.jpg",
+    "name": "AquaFusion Bottle",
+    "price": 30,
+    "discount": 5,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:15:07.834Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/zN0BDX2/watterbottol-7.jpg",
+    "name": "RefreshFlow Bottle",
+    "price": 30,
+    "discount": 8,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:16:04.282Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/zs3WjCS/watterbottol-8.jpg",
+    "name": "AquaBloom Bottle",
+    "price": 10,
+    "discount": null,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:17:01.325Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/SJcMZKn/watterbottol-9.jpg",
+    "name": "HydratePro Bottle",
+    "price": 20,
+    "discount": 5,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:17:40.482Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/tzYqNXr/watterbottol-10.jpg",
+    "name": "AquaEssence Bottle",
+    "price": 30,
+    "discount": null,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:18:04.101Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/FnLKWV0/watterbottol-11.jpg",
+    "name": "AquaQuench Bottle",
+    "price": 25,
+    "discount": 5,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:18:40.657Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/qyMs4h8/watterbottol-12.jpg",
+    "name": "Hydroluxe Bottle",
+    "price": 25,
+    "discount": 10,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:19:32.309Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/rx46pzV/watterbottol-13.jpg",
+    "name": "RefreshRevive Bottle",
+    "price": 35,
+    "discount": 15,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:20:00.852Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/X531DsT/watterbottol-14.jpg",
+    "name": "AquaBliss Bottle",
+    "price": 20,
+    "discount": 5,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:20:29.260Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/mGLGth6/watterbottol-15.jpg",
+    "name": "PureGlow Bottle",
+    "price": 20,
+    "discount": null,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:20:59.239Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/BBf3Fpz/watterbottol-16.jpg",
+    "name": "PureGlow Bottle",
+    "price": 15,
+    "discount": null,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:21:13.758Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/YbNTJs6/watterbottol-17.jpg",
+    "name": "HydroZen Bottle",
+    "price": 18,
+    "discount": null,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:21:36.522Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/Ch2Pkp9/watterbottol-19.jpg",
+    "name": "AquaLuxe Bottle",
+    "price": 20,
+    "discount": 5,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:22:06.921Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/9cGtpfn/watterbottol-20.jpg",
+    "name": "AquaLuxe Bottle",
+    "price": 25,
+    "discount": 10,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:22:29.552Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/JtjBYwF/watterbottol-21.jpg",
+    "name": "RefreshPure Bottle",
+    "price": 30,
+    "discount": 12,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:22:53.367Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/2ywFhJG/watterbottol-22.jpg",
+    "name": "RefreshPure Bottle",
+    "price": 30,
+    "discount": null,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:23:13.915Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/KscxF6N/watterbottol-23.jpg",
+    "name": "HydrateWell Bottle",
+    "price": 25,
+    "discount": 5,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:23:34.022Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/3y7cWBC/watterbottol-24.jpg",
+    "name": "VitalStream Bottle",
+    "price": 30,
+    "discount": 10,
+    "description": "Crafted from high-quality, food-grade stainless steel, the AquaWave Water Bottle guarantees durability and long-lasting performance. Its sleek and ergonomic design fits comfortably in your hand and makes it easy to carry wherever you go.\n\n    The key feature of the AquaWave Water Bottle is its superior insulation technology. The double-wall vacuum insulation ensures that your beverages stay cold for up to 24 hours or hot for up to 12 hours, allowing you to enjoy your favorite drinks at the perfect temperature, regardless of the weather outside.",
+    "category": "watter-Bottol",
+    "createdAt": "2023-06-19T20:23:56.510Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/Wzw6xWw/273541686-417747483486385-975037423100333410-n.jpg",
+    "name": "ScholarPack  Bag",
+    "price": 120,
+    "discount": 20,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:27:08.647Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/cwdQth9/273621240-417752346819232-3085697524229169111-n.jpg",
+    "name": "BookBreeze Bag",
+    "price": 140,
+    "discount": 30,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:28:01.337Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/tKgqCDF/273647093-417752293485904-4370936844649849806-n.jpg",
+    "name": "StudyStride Bag",
+    "price": 140,
+    "discount": 10,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:28:19.810Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/BsGgZY7/273648209-417752206819246-822038315118013122-n.jpg",
+    "name": "SmartCarry Bag",
+    "price": 140,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:28:39.177Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/n7MF40S/273651628-417752096819257-5495594192513280575-n.jpg",
+    "name": "LearnQuest Bag",
+    "price": 140,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:29:03.861Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/Gk98bpm/273652256-417752123485921-871254231578749410-n.jpg",
+    "name": "KnowledgeKart Bag",
+    "price": 140,
+    "discount": 20,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:29:24.361Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/pR1zXqb/273657988-417752383485895-791413099158723646-n.jpg",
+    "name": "BrainHauler Bag",
+    "price": 140,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:29:45.136Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/pLk5tW3/273658659-417751990152601-5821143214421285281-n.jpg",
+    "name": "ThinkTrek Bag",
+    "price": 30,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:30:10.471Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/yXr2t88/273659174-417752010152599-4333427656278058487-n.jpg",
+    "name": "EduTote Bag",
+    "price": 125,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:30:47.190Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/syM87Tw/273663369-417752316819235-5381884386649866922-n.jpg",
+    "name": "StudySatchel Bag",
+    "price": 150,
+    "discount": 30,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:31:20.203Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/vsVpnRh/273663557-417751030152697-3925852789668379845-n.jpg",
+    "name": "BookWagon Bag",
+    "price": 150,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:31:39.306Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/yynwzh7/273663590-417752186819248-5944187813265022984-n.jpg",
+    "name": "SmartSling Bag",
+    "price": 100,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:32:01.606Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/bNnM1fT/273666282-417751133486020-5978267823060475507-n.jpg",
+    "name": "LearnPorter Bag",
+    "price": 100,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:32:33.091Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/NmdRtPK/273669458-417752063485927-6346399354550906437-n.jpg",
+    "name": "BrainTrail Bag",
+    "price": 130,
+    "discount": 10,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:32:59.715Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/zXqhGjB/273685209-417752043485929-3714209004429064970-n.jpg",
+    "name": "ThinkLoad Bag",
+    "price": 130,
+    "discount": 10,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:33:17.295Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/26LXv5R/273686249-417752260152574-6816218979673143044-n.jpg",
+    "name": "ThinkLoad Bag",
+    "price": 140,
+    "discount": 30,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:33:36.652Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/g6rL8Hs/273688438-417751050152695-9122593197745487386-n.jpg",
+    "name": "StudyStow Bag",
+    "price": 135,
+    "discount": 10,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:33:57.934Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/jr6D0sc/273695319-417752223485911-2548392845384285963-n.jpg",
+    "name": "BookCarrier Bag",
+    "price": 135,
+    "discount": 15,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:34:20.106Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/4gx2ws3/273717386-417751106819356-4452753070357133304-n.jpg",
+    "name": "SmartHitch Bag",
+    "price": 135,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:34:38.966Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/jvK693Z/273721645-417752416819225-6404707708331952352-n.jpg",
+    "name": "LearnJourney Bag",
+    "price": 80,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:35:00.118Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/xDv2jgg/273727824-417752166819250-5768764914135581430-n.jpg",
+    "name": "BrainCrafter Bag",
+    "price": 150,
+    "discount": 35,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:35:23.254Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/ph63pxH/273735120-417751080152692-3000633081020786567-n.jpg",
+    "name": "ThinkTrekker Bag",
+    "price": 150,
+    "discount": 40,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Bag",
+    "createdAt": "2023-06-19T20:35:41.851Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/QHHnZvZ/103862576-152353566387857-6524781939100463830-n.jpg",
+    "name": "TechVibe Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:39:09.416Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/n8DGKrZ/104130818-152353633054517-3836796055778707273-n.jpg",
+    "name": "GeekGlam Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:40:27.018Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/X3VZ17t/104175277-152353596387854-5659977462291145194-n.jpg",
+    "name": "ArtTech Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:40:42.538Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/4mpzYy1/104183453-152353799721167-9143833911993284562-n.jpg",
+    "name": "PixelPop Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:40:57.741Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/ws1gKvq/104214184-152353706387843-1537882553325931658-n.jpg",
+    "name": "ExpressiveTech Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:41:18.989Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/NnqwPgx/104587152-152354159721131-6044315335101951237-n.jpg",
+    "name": "DigiStyle Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:41:37.320Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/G9BG2Xc/104607989-152354423054438-4055489764889873306-n.jpg",
+    "name": "CodeCanvas Laptop Sticker",
+    "price": 40,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:41:55.345Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/FDVCVCJ/104670782-152354336387780-3363168319978911753-n.jpg",
+    "name": "RetroTech Laptop Sticker",
+    "price": 40,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:42:14.478Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/WpqScJh/104684145-152354356387778-7097560034183578642-n.jpg",
+    "name": "FunkyFusion Laptop Sticker",
+    "price": 40,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:42:29.932Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/WpqScJh/104684145-152354356387778-7097560034183578642-n.jpg",
+    "name": "TechTrendz Laptop Sticker",
+    "price": 40,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:42:42.969Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/6s5FQdD/104752757-152354276387786-2837983565859508317-n.jpg",
+    "name": "VibrantBits Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:43:01.621Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/C0GG2NV/104767306-152353363054544-6632614637354017296-n.jpg",
+    "name": "CyberGraffiti Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:43:15.809Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/qsQr4tS/104886992-152353589721188-7358657215298088402-n.jpg",
+    "name": "WhimsiTech Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:43:37.225Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/F7gjQCq/105287110-152354349721112-8190550805180861004-n.jpg",
+    "name": "PopPixel Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:43:53.065Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/F7fwNRG/105429262-152353649721182-171173313351953768-n.jpg",
+    "name": "ElectroArt Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:44:07.795Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/s1db284/105491466-152354623054418-6221591349566780145-n.jpg",
+    "name": "NerdyChic Laptop Sticker",
+    "price": 40,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:44:26.039Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/Q8T254c/105492690-152353443054536-7886923507521297280-n.jpg",
+    "name": "TechnoGraphics Laptop Sticker",
+    "price": 40,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:44:44.448Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/hHFdrJB/105542412-152354106387803-9178669980644633170-n.jpg",
+    "name": "QuirkyTech Laptop Sticker",
+    "price": 40,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:45:01.378Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/34Xsgcm/106108543-152353669721180-5176428983407113958-n.jpg",
+    "name": "DigitalDoodle Laptop Sticker",
+    "price": 40,
+    "discount": null,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:45:18.691Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/zn9wvSK/106166914-152353996387814-2639756982744953937-n.jpg",
+    "name": "HipTech Laptop Sticker",
+    "price": 40,
+    "discount": 5,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Laptop-Sticker",
+    "createdAt": "2023-06-19T20:45:36.320Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/NNTk01H/01-1.jpg",
+    "name": "StyleShield Mobile Cover",
+    "price": 100,
+    "discount": 10,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:47:58.825Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/2KVsxM8/01-2.jpg",
+    "name": "TrendGuard Mobile Cover",
+    "price": 100,
+    "discount": 20,
+    "description": "The ProTech School Bag is the perfect companion for students of all ages, designed to combine durability, comfort, and functionality. Whether you're heading to class, going on a field trip, or carrying your books and supplies, this bag has got you covered.\n\n    Crafted from high-quality, tear-resistant materials, the ProTech School Bag is built to withstand the rigors of daily use. The reinforced stitching and rugged construction ensure that your bag remains in excellent condition, even with heavy textbooks and school essentials packed inside.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:48:45.136Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/r0c9r0N/01-3.jpg",
+    "name": "ChicArmor Mobile Cover",
+    "price": 100,
+    "discount": 20,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:49:33.362Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/25yF9C1/01-4.jpg",
+    "name": "GlamDefender Mobile Cover",
+    "price": 100,
+    "discount": 15,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:50:00.385Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/stVMy6b/01-5.jpg",
+    "name": "FashionFlex Mobile Cover",
+    "price": 100,
+    "discount": 15,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:50:17.280Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/FgNTzRk/01-6.jpg",
+    "name": "SleekWrap Mobile Cover",
+    "price": 100,
+    "discount": 15,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:50:41.533Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/nwWcwY8/01-7.jpg",
+    "name": "ModernGuard Mobile Cover",
+    "price": 100,
+    "discount": 15,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:50:57.258Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/V2Gz93H/01-8.jpg",
+    "name": "UrbanShield Mobile Cover",
+    "price": 100,
+    "discount": 15,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:51:12.745Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/T84T7R0/01-9.jpg",
+    "name": "VibeArmor Mobile Cover",
+    "price": 100,
+    "discount": 10,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:51:40.517Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/7GF7Tzs/01-10.jpg",
+    "name": "ElegantWrap Mobile Cover",
+    "price": 100,
+    "discount": 10,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:51:58.456Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/VJt2y7x/01-11.jpg",
+    "name": "BoldDefender Mobile Cover",
+    "price": 100,
+    "discount": 10,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:52:15.664Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/nM6hPMn/01-12.jpg",
+    "name": "ClassicCover Mobile Cover",
+    "price": 100,
+    "discount": null,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:52:37.108Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/djNNFVV/01-13.jpg",
+    "name": "DapperGuard Mobile Cover",
+    "price": 100,
+    "discount": null,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:52:53.416Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/N1QHGqq/01-14.jpg",
+    "name": "FunkyWrap Mobile Cover",
+    "price": 100,
+    "discount": null,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:53:16.464Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/SKVFfdy/01-15.jpg",
+    "name": "CustomShield Mobile Cover",
+    "price": 100,
+    "discount": null,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:53:32.885Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/2YSv3n1/01-16.jpg",
+    "name": "QuirkyCover Mobile Cover",
+    "price": 100,
+    "discount": 5,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:53:57.077Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/XzQWZF6/01-18.jpg",
+    "name": "VibrantGuard Mobile Cover",
+    "price": 100,
+    "discount": 5,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:54:18.346Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/dkd82nz/01-19.jpg",
+    "name": "TechChic Mobile Cover",
+    "price": 100,
+    "discount": null,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:54:36.087Z",
+    "__v": 0
+  },
+  {
+    "img": "https://i.ibb.co/hmB75dk/01-20.jpg",
+    "name": "TechChic Mobile Cover",
+    "price": 100,
+    "discount": null,
+    "description": "Keep your valuable smartphone safe and stylish with the Guardian Armor Mobile Cover. Designed with ultimate protection in mind, this cover combines durability, functionality, and aesthetic appeal to safeguard your device from everyday wear and tear.\n\n    Crafted from high-quality materials, the Guardian Armor Mobile Cover provides robust defense against accidental drops, bumps, and scratches. Its dual-layer construction features a tough outer shell and a shock-absorbent inner layer, effectively dispersing impact forces and minimizing damage to your phone.",
+    "category": "Mobile-Cover",
+    "createdAt": "2023-06-19T20:54:47.955Z",
+    "__v": 0
+  }
+]

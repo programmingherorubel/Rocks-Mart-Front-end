@@ -1,0 +1,112 @@
+.dashbord{
+    padding: 10px 20px;
+    width: 250px;
+    border-right: 1px solid rgba(128, 128, 128, 0.233);
+    height: 100vh;
+    background-color: #001E3C;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.activeDashbrodMenubar{
+    transform: translate(0%);
+    transition: all 0.5s ease-in-out;
+}
+.dashbordheader{
+    padding: 10px 0px;
+    background-color: #001E3C; 
+}
+.header{
+    display: block;
+    width: 100%!important;
+}
+.dashbordOutlet{
+    margin-left: 250px;
+    padding: 10px;
+}
+.hamburgerdashbord{
+    display: none;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .dashbord{
+        transform: translate(-100%);
+    }
+    .dashbordOutlet{
+        margin-left: 0px;
+    } 
+    .hamburgerdashbord{
+        display: block;
+    } 
+    .activeDashbrodMenubar{
+        transform: translate(0%);
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .dashbord{
+        transform: translate(-100%);
+    }
+    .dashbordOutlet{
+        margin-left: 0px;
+    } 
+    .hamburgerdashbord{
+        display: block;
+    } 
+    .activeDashbrodMenubar{
+        transform: translate(0%);
+        transition: all 0.5s ease-in-out;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .dashbord{
+        transform: translate(-100%);
+    }
+    .dashbordOutlet{
+        margin-left: 0px;
+    }
+    .hamburgerdashbord{
+        display: block;
+    }
+    .activeDashbrodMenubar{
+        transform: translate(0%);
+        transition: all 0.5s ease-in-out;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .dashbord{
+        transform: translate(-100%);
+    }
+    .dashbordOutlet{
+        margin-left: 0px;
+    }  
+    .hamburgerdashbord{
+        display: block;
+    }
+    .activeDashbrodMenubar{
+        transform: translate(0%);
+        transition: all 0.5s ease-in-out;
+    }
+
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra extra  large devices (larges desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}

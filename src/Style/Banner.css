@@ -1,0 +1,18 @@
+.banner{
+    padding: 20px 0px;
+    background: #fffcf2;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 60px!important;
+    height: 60px!important;
+    padding: 10px!important;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}

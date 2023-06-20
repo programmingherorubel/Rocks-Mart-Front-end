@@ -1,0 +1,87 @@
+.searchBar{
+    position: fixed;
+    top: 100px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-1000%);
+}
+.searchBar.searchbaractive{
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-100%);
+}
+
+.mobilemenu{
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-100%);
+    transition: all 0.4s ease-in-out;
+    height: 100vh;
+    background-color: white;
+}
+.mobilemenu li{
+    margin-top: 30px;
+}
+.mobileActivemenu{
+    transform: translate(0%);
+    transition: all 0.4s ease-in-out;
+    
+}
+.bars{
+    display: none;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbarLink{
+        display: none;
+    }
+    .bars{
+    display: block;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbarLink{
+        display: none;
+    }
+    .bars{
+    display: block;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbarLink{
+        display: none;
+    }
+    .bars{
+    display: block;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbarLink{
+        display: none;
+    }
+    .bars{
+    display: block;
+}
+
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra extra  large devices (larges desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}

@@ -1,0 +1,13 @@
+.category{
+    padding: 60px 0px;
+    background: #fffcf2;
+}
+.singleShop{
+    background: linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.301)),url(../assets/category.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
