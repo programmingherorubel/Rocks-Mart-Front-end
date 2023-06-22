@@ -5,12 +5,15 @@ import Dashbord from "../Dashbord/Dashbord";
 import AddProducts from "../Dashbord/AddProducts";
 import SingleCategory from "../Pages/SingleCategory";
 import Shop from "../Components/Shop";
+import AboutUs from "../Pages/AboutUs";
+import NotFound from "../Components/NotFound";
 
 const router = createBrowserRouter(
     [
         {
             path:'/',
             element:<Main/>,
+            errorElement:<NotFound/>,
             children:[
                 {
                     path:'/',
@@ -19,6 +22,10 @@ const router = createBrowserRouter(
                 {
                     path:'/shop',
                     element:<Shop/>
+                },
+                {
+                    path:'/about',
+                    element:<AboutUs/>
                 },
                 {
                     path:'/category/:title',

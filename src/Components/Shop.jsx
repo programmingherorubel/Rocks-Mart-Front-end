@@ -8,13 +8,25 @@ import Product from './Product';
 
 
 
+
 const Shop = () => {
     const [filtercategory,setFilterCategory]= useState('all')
-    const {isLoading,isError,data}=useGetAllProductsQuery(filtercategory)
+    const [filterInformation,setFilterInformation]= useState('')
+    const info={
+        filtercategory:filtercategory,
+        filter:filterInformation
+    }
+    const {isLoading,isError,data}=useGetAllProductsQuery(info)
+  
+
     const categorySelect = event =>{
         setFilterCategory(event.target.value)
     }
-    console.log(filtercategory)
+
+    const filterinfo = (event)=>{
+        setFilterInformation(event.target.value)
+    }
+   
     
     let content = null 
 
@@ -39,7 +51,7 @@ const Shop = () => {
         <Container fluid>
             <Row>
                 <Col md={2} className='px-3 border-end mt-2 mb-2' style={{height:'auto'}}>
-                    <FilterSection categorySelect={categorySelect} />
+                    <FilterSection categorySelect={categorySelect} filterinfo={filterinfo} />
                 </Col>
                 <Col md={10}>
                     <Row>

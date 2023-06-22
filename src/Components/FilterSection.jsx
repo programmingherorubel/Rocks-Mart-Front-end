@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FilterSection = ({categorySelect}) => {
+const FilterSection = ({categorySelect,filterinfo}) => {
     
     return (
         <>
@@ -26,12 +26,10 @@ const FilterSection = ({categorySelect}) => {
                         <label  className="form-check-label"style={{fontWeight:'700',color:'gray'}} for="flexRadioDefault4">Mobile Cover</label>
                     </div> <hr /><hr />
                     <h6 className='mt-2 text-center' style={{fontWeight:'700',color:'gray'}}>Filter Your Products</h6>
-                    <select class="selectpicker form-control mt-3" data-style="btn-primary" style={{width:'200px'}} className='form-control' data-width="100%">
+                    <select onClick={filterinfo} class="selectpicker form-control mt-3" data-style="btn-primary" style={{width:'200px'}} className='form-control' data-width="100%">
                             <option value="">All</option>
-                            <option value="Bag">Bag</option>
-                            <option value="Water-Bottle">Water Bottle</option>
-                            <option value="Laptop-Sticker">Laptop Sticker</option>
-                            <option value="Mobile-Cover">Mobile Cover</option>
+                            <option  value="hightolow">High To Low</option>
+                            <option  value="lowtohigh">Low To High</option>
                         </select>
         </>
     );

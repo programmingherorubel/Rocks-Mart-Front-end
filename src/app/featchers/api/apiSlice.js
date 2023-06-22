@@ -13,7 +13,7 @@ export const apiSlice = createApi({
         }),
 
         getAllProducts: builder.query({
-            query: (title) => `/products/${title}`,
+            query: (info) => `/products?title=${info.filtercategory}&filter=${info.filter}`
         }),
 
         getCategory: builder.query({
@@ -21,7 +21,7 @@ export const apiSlice = createApi({
         }),
 
         getSingleCategory: builder.query({
-            query: (title) => `/category/${title}`,
+            query: (title) => `/category/${title}`,//?hello=${hello}
         }),
 
 
