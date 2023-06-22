@@ -21,9 +21,12 @@ export const apiSlice = createApi({
         }),
 
         getSingleCategory: builder.query({
-            query: (title) => `/category/${title}`,//?hello=${hello}
+            query: (title) => `/category/${title}`,
         }),
 
+        getProduct:builder.query({
+            query: ()=> '/products/all'
+        })
 
 
     }),
@@ -31,4 +34,4 @@ export const apiSlice = createApi({
 
 
 
-export const { useGetnavbarQuery, useGetCategoryQuery, useGetSingleCategoryQuery ,useGetAllProductsQuery} = apiSlice
+export const { useGetnavbarQuery, useGetCategoryQuery,useGetProductQuery ,useGetSingleCategoryQuery ,useGetAllProductsQuery} = apiSlice
