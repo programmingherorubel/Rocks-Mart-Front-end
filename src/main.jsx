@@ -1,18 +1,27 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { RouterProvider } from 'react-router-dom'
-import router from './router/router'
-import './Style/Index.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux'
+import { RouterProvider } from 'react-router-dom'
+import 'react-toastify/dist/ReactToastify.css'
+import "slick-carousel/slick/slick-theme.css"
+import "slick-carousel/slick/slick.css"
+import AuthProvider from './AuthProvider/AuthProvider'
+import './Style/Index.css'
 import { store } from './app/store'
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import router from './router/router'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+
     <Provider store={store}>
-        <RouterProvider router={router}></RouterProvider>
-    </Provider>
-    
+        <AuthProvider>
+            <RouterProvider router={router}>
+            
+            </RouterProvider>
+        </AuthProvider>
+    </Provider >
+
+
 )

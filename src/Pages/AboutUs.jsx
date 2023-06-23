@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { useSpring, animated } from 'react-spring';
 
 const AboutUs = () => {
     const fadeIn = useSpring({

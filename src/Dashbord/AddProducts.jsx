@@ -39,7 +39,6 @@ const AddProducts = () => {
             .then(res => res.json())
             .then(insertData => {
                 alert('product add successfull')
-                console.log(insertData.result)
             })
           })  
     };

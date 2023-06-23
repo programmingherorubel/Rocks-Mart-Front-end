@@ -7,6 +7,9 @@ import SingleCategory from "../Pages/SingleCategory";
 import Shop from "../Components/Shop";
 import AboutUs from "../Pages/AboutUs";
 import NotFound from "../Components/NotFound";
+import Login from "../Pages/Login";
+import Reg from "../Pages/Reg";
+import Cart from "../Components/Cart";
 
 const router = createBrowserRouter(
     [
@@ -26,6 +29,18 @@ const router = createBrowserRouter(
                 {
                     path:'/about',
                     element:<AboutUs/>
+                },
+                {
+                    path:'/cart',
+                    element:<Cart/>
+                },
+                {
+                    path:'/login',
+                    element:<Login/>
+                },
+                {
+                    path:'/registration',
+                    element:<Reg/>
                 },
                 {
                     path:'/category/:title',

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 import Banner from './Banner';
 import Category from './Category';
 import DeliveryBanner from './DeliveryBanner';
-import Review from './Review';
 import RecentAndDiscount from './RecentAndDiscount';
+import Review from './Review';
+import Subscribe from './Subscribe';
 
 const Home = () => {
     return (
@@ -14,6 +14,8 @@ const Home = () => {
             <DeliveryBanner></DeliveryBanner>
             <Review></Review>
             <RecentAndDiscount></RecentAndDiscount>
+            <Subscribe></Subscribe>
+
         </>
     );
 };

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { AiOutlineUser } from 'react-icons/ai';
 import { BsCart2, BsSearch } from 'react-icons/bs';
@@ -8,14 +8,25 @@ import Error from '../Components/Error';
 import Loading from '../Components/Loading';
 import '../Style/CustomNavbar.css';
 import { useGetnavbarQuery } from '../app/featchers/api/apiSlice';
+import { FiUser } from 'react-icons/fi';
+import { AuthContext } from '../AuthProvider/AuthProvider';
+import {AiOutlineLogin} from 'react-icons/ai'
+import { toast } from 'react-toastify';
 
 const CustomNavbar = () => {
   const [searchbar,setSearchBar]= useState(false)
   const {data,isLoading,isError}= useGetnavbarQuery() 
   const [activeMenu,setActiveMenu]= useState(false)
+  const {user,logout}= useContext(AuthContext)
+  const [userSystem,setUserSystem]=useState(false)
   let myNavigation = null
   let mobileMenu = null
-
+  
+  
+const hallo = ()=>{
+  toast('hello')
+  alert('hello')
+}
 
 
   if(isLoading){
@@ -101,10 +112,20 @@ const CustomNavbar = () => {
                   <BsSearch style={{ fontSize: '24px' }} onClick={()=>setSearchBar(!searchbar)} />
                 </li>
                 <li className="mt-3" style={{ listStyle: 'none' }}>
-                  <BsCart2 style={{ fontSize: '24px' }} />
+                  <Link to='/cart' style={{color:'black'}}><BsCart2 style={{ fontSize: '24px' }} /></Link>
                 </li>
-                <li className="mt-3" style={{ listStyle: 'none' }}>
+                <li className="mt-3" style={{ listStyle: 'none',position:'relative'}} onClick={()=>setUserSystem(!userSystem)}> 
                 <AiOutlineUser style={{ fontSize: '24px' }} />
+                  {userSystem && <ul className='dropdownn list-group' style={{position:'absolute'}}>
+                    {user?.email ? <li class="list-group-item " style={{display:'flex',color:'tomato',fontWeight:'700'}} onClick={()=>logout()}>Logout <AiOutlineLogin style={{fontSize:'22px'}} /></li>
+                    :
+                    <li class="list-group-item " style={{display:'flex'}}>
+                      <Link style={{textDecoration:'none',color:'black',fontWeight:'700',padding:'0px 5px'}} to='/login'>Login</Link> <AiOutlineLogin style={{fontSize:'22px',fontWeight:'700'}} />
+                    </li>}
+                    <li class="list-group-item " style={{display:'flex'}}>
+                      <Link style={{textDecoration:'none',color:'black',fontWeight:'700',padding:'0px 5px'}} to='/registration'>Registration</Link> <FiUser style={{fontSize:'22px',fontWeight:'700'}} />
+                    </li>
+                  </ul>}
                 </li>
                 <li  className="mt-3 bars" style={{ listStyle: 'none' }}>
                 <FaBars onClick={()=>setActiveMenu(!activeMenu)} style={{ fontSize: '24px' }} />
@@ -129,6 +150,7 @@ const CustomNavbar = () => {
               </h4>
             </div>
                 {mobileMenu}
+                <p onClick={hallo}>k</p>
               </ul>
           </div>
     </Container>

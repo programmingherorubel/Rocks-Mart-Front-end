@@ -5,11 +5,13 @@ import { Link, Outlet } from 'react-router-dom';
 import {AiOutlinePlusCircle,AiFillHome} from 'react-icons/ai'
 
 import DashbordHeader from './DashbordHeader';
+import { ToastContainer } from 'react-toastify';
 
 const Dashbord = () => {
     const [dashbordActive,setDashbordActive]= useState(false)
-    console.log(dashbordActive)
+   
     return (
+        <>
         <Container fluid>
             <Row>
                 <DashbordHeader setDashbordActive={setDashbordActive} dashbordActive={dashbordActive}></DashbordHeader>
@@ -27,6 +29,8 @@ const Dashbord = () => {
                 </Col>
             </Row>
         </Container>
+        <ToastContainer />
+        </>
     );
 };
 

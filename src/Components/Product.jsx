@@ -1,16 +1,24 @@
 import React, { useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import '../Style/Product.css'
-import { FiShoppingCart } from 'react-icons/fi';
-import { BsHeart } from 'react-icons/bs';
-import { AiFillEye } from 'react-icons/ai';
-import DashbordButton from '../Dashbord/DashbordButton';
-import Button from 'react-bootstrap/Button';
+import { Col, Row } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
+import { AiFillEye } from 'react-icons/ai';
+import { BsHeart } from 'react-icons/bs';
+import { FiShoppingCart } from 'react-icons/fi';
+import { useDispatch } from 'react-redux';
+import DashbordButton from '../Dashbord/DashbordButton';
+import '../Style/Product.css';
+import { addProduct } from '../app/featchers/CartSlice';
 
 
 const Product = ({ product }) => {
     const [show, setShow] = useState(false);
+    
+    
+    const dispatch = useDispatch()
+
+    const addToCart = (data)=>{
+        dispatch(addProduct(data))
+    }
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -31,7 +39,7 @@ const Product = ({ product }) => {
                 <p style={{ color: 'tomato', fontWeight: '700' }}>$ {product.price}</p>
             </div>
             {product?.discount && <h5 style={{ color: 'white', position: 'absolute', top: '0px', right: '15px', padding: '10px', background: 'tomato', height: '60px', width: '60px', borderRadius: '50%' }}>{product?.discount}% Off</h5>}
-            <DashbordButton title='Add To Cart'></DashbordButton>
+            <div onClick={()=>addToCart(product)}><DashbordButton title='Add To Cart'></DashbordButton></div>
             {/* Modal  */}
             <Modal show={show}  size="lg" centered onHide={handleClose}>
                 <Modal.Header style={{background:'#001E3C',color:'white'}} closeButton>
@@ -48,7 +56,7 @@ const Product = ({ product }) => {
                         </Col>
                         <Col md={6}>
                             <p style={{color:'gray'}}><b> Description:</b>{product.description}</p>
-                            <DashbordButton title='Add To Cart'></DashbordButton>
+                            <div onClick={()=>addToCart(product)}> <DashbordButton title='Add To Cart'></DashbordButton></div>
                         </Col>
                     </Row>
                 </Modal.Body>
