@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { toast } from "react-toastify";
 
 const initialState = {
     products: []
@@ -12,9 +13,29 @@ const productsSlice = createSlice({
             const existingProduct = state.products.find(product => product._id === action.payload._id);
             if (existingProduct) {
                 existingProduct.quantity += 1;
+                toast.success('Product Added Successfull', {
+                    position: "top-center",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                    });
             } else {
                 const newProduct = { ...action.payload, quantity: 1 }; 
                 state.products.push(newProduct);
+                toast.success('Product Added Successfull', {
+                    position: "top-center",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                    });
             }
         },
         incrementQuantity: (state, action) => {

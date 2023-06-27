@@ -1,37 +1,29 @@
 import React, { useContext, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineHeart, AiOutlineLogin, AiOutlineUser } from 'react-icons/ai';
 import { BsCart2, BsSearch } from 'react-icons/bs';
 import { FaBars } from 'react-icons/fa';
-import { Link, useNavigate } from 'react-router-dom';
+import { FiUser } from 'react-icons/fi';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { AuthContext } from '../AuthProvider/AuthProvider';
 import Error from '../Components/Error';
 import Loading from '../Components/Loading';
 import '../Style/CustomNavbar.css';
-import { useGetAllProductsQuery, useGetnavbarQuery } from '../app/featchers/api/apiSlice';
-import { FiUser } from 'react-icons/fi';
-import { AuthContext } from '../AuthProvider/AuthProvider';
-import {AiOutlineLogin} from 'react-icons/ai'
-import { toast } from 'react-toastify';
-import { useSelector } from 'react-redux';
+import { useGetnavbarQuery } from '../app/featchers/api/apiSlice';
 
 const CustomNavbar = () => {
-  const [searchbar,setSearchBar]= useState(false)
+  
   const {data,isLoading,isError}= useGetnavbarQuery() 
-  const [searchByShop,setSearchByShop]=useState('')
   const [activeMenu,setActiveMenu]= useState(false)
   const {user,logout}= useContext(AuthContext)
   const [userSystem,setUserSystem]=useState(false)
   const { products } = useSelector(state => state.products)
-  const navigate= useNavigate()
+
   let myNavigation = null
   let mobileMenu = null
-  const {} = useGetAllProductsQuery(searchByShop)
-  
-  
-  const searchValue = (e)=>{
-    navigate('/shop')
-    setSearchByShop(e.target.value )
-  }
+ 
+ 
 
 
   if(isLoading){
@@ -113,12 +105,14 @@ const CustomNavbar = () => {
           <Col md={4} className='col-6 text-right'>
             <div>
               <ul style={{ display: 'flex', gap: '20px', justifyContent: 'end' }}>
-                <li className="mt-3" style={{ listStyle: 'none' }}>
-                  <BsSearch style={{ fontSize: '24px' }} onClick={()=>setSearchBar(!searchbar)} />
-                </li>
+                
                 <li className="mt-3" style={{ listStyle: 'none' ,position:'relative'}}>
                   <Link to='/cart' style={{color:'black'}}><BsCart2 style={{ fontSize: '24px' }} /></Link>
                   <p style={{position:'absolute',top:'-15px',right:'-4px',color:'white',color:'tomato'}}><b>{products.length}</b></p>
+                </li>
+                <li className="mt-3" style={{ listStyle: 'none' ,position:'relative'}}>
+                  <Link to='/wishlist' style={{color:'black'}}><AiOutlineHeart style={{ fontSize: '24px' }} /></Link>
+                  <p style={{position:'absolute',top:'-15px',right:'-4px',color:'white',color:'tomato'}}></p>
                 </li>
                 <li className="mt-3" style={{ listStyle: 'none',position:'relative'}} onClick={()=>setUserSystem(!userSystem)}> 
                 <AiOutlineUser style={{ fontSize: '24px' }} />
@@ -141,11 +135,7 @@ const CustomNavbar = () => {
           </Col>
         </Row>
       </Container>
-        <Row className={searchbar ? 'searchbaractive searchBar ' : 'searchBar'}>
-            <Col md={6} className='mx-auto'>
-                <input onChange={searchValue} type="text" placeholder='Search Your Product'style={{border:'2px solid #12375D'}} className='form-control rounded-0 p-2' />
-            </Col>
-        </Row>
+        
         <div>
           <ul className={activeMenu ?  'mobilemenu mobileActivemenu' : 'mobilemenu'}>
           <div style={{display:'flex',justifyContent:'start'}}>

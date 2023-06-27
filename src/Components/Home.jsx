@@ -15,7 +15,6 @@ const Home = () => {
             <Review></Review>
             <RecentAndDiscount></RecentAndDiscount>
             <Subscribe></Subscribe>
-
         </>
     );
 };

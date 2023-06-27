@@ -69,6 +69,7 @@ const RecentProduct = ({ restrictedProduct }) => {
     var settings = {
         dots: false,
         infinite: false,
+        arrows:true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 2,

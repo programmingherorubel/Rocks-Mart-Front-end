@@ -12,13 +12,16 @@ import Product from './Product';
 const Shop = () => {
     const [filtercategory,setFilterCategory]= useState('all')
     const [filterInformation,setFilterInformation]= useState('')
+    const [searchProduct,setSearchProduct]=useState('')
+    
     const info={
         filtercategory:filtercategory,
-        filter:filterInformation
+        filter:filterInformation,
+        searchByShop:searchProduct
     }
     const {isLoading,isError,data}=useGetAllProductsQuery(info)
   
-
+  
     const categorySelect = event =>{
         setFilterCategory(event.target.value)
     }
@@ -26,6 +29,8 @@ const Shop = () => {
     const filterinfo = (event)=>{
         setFilterInformation(event.target.value)
     }
+
+   
    
     
     let content = null 
@@ -40,6 +45,7 @@ const Shop = () => {
     if(!isLoading && !isError && data?.length === 0){
         content = <Error error='No Data Found' />
     }
+    
 
     if(!isLoading && !isError && data?.length > 0){
         content = data.map((product,index) => <Product  key={index} product={product} />)
@@ -54,6 +60,11 @@ const Shop = () => {
                     <FilterSection categorySelect={categorySelect} filterinfo={filterinfo} />
                 </Col>
                 <Col md={10}>
+                    <Row>
+                        <Col md={7} className='mx-auto'>
+                            <input onChange={(e)=>setSearchProduct(e.target.value)} type="text" className='p-2 mx-auto form-control mt-3' placeholder='Search Your Product' />
+                        </Col>
+                    </Row>
                     <Row>
                         {content}
                     </Row>
