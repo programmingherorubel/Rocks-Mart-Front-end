@@ -4,7 +4,7 @@ import { AiOutlinePlusCircle, AiOutlineMinusCircle, AiOutlineCloseCircle } from 
 import { useDispatch, useSelector } from 'react-redux';
 import { incrementQuantity, decrementQuantity, deleteProduct } from '../app/featchers/CartSlice'
 import { Link } from 'react-router-dom';
-import DashbordButton from '../Dashbord/DashbordButton';
+
 
 const Cart = () => {
     const { products } = useSelector(state => state.products)
@@ -21,19 +21,19 @@ const Cart = () => {
 
 
 
-
     let quantity = 0;
     let discount = 0;
     let grandTotal = 0;
-    let price = 0
-
+    let price = 0;
+    
     for (let product of products) {
-        price +=product.price
-        quantity += product.quantity
-        discount += product.discount * quantity
-        grandTotal += price * quantity - discount
+        price = product.price;
+        quantity += product.quantity;
+        discount += product.discount * product.quantity;
+        grandTotal += price * product.quantity;
     }
-
+    
+    grandTotal -= discount;
   
 
 

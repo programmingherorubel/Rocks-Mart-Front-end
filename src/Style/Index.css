@@ -16,6 +16,7 @@
     transition: all 0.4s ease-in-out;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 .dashbordButton:hover{
     margin: 10px 0px;
