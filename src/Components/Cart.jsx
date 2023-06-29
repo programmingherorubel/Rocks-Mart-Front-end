@@ -35,6 +35,7 @@ const Cart = () => {
     
     grandTotal -= discount;
   
+    
 
 
     return (

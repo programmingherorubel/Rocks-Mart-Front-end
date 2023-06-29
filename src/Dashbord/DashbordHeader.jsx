@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import userpic from  '../assets/user.png'
 import {AiOutlineBars} from 'react-icons/ai'
+import { AuthContext } from '../AuthProvider/AuthProvider';
 
 const DashbordHeader = ({dashbordActive,setDashbordActive}) => {
+    const {user}= useContext(AuthContext)
     return (
         <Container fluid className='header py-2' style={{background:'#001E3C'}}>
             <Row>
@@ -18,7 +20,7 @@ const DashbordHeader = ({dashbordActive,setDashbordActive}) => {
                         </h4>
                         </div>
                     </div>
-                  <img src={userpic} style={{width:'50px',height:'50px',borderRadius:'50%'}} alt="" />
+                  <img src={user?.imgURL} style={{width:'50px',height:'50px',borderRadius:'50%'}} alt="" />
                 </div>
             </Row>
         </Container>

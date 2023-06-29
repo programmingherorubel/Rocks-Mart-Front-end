@@ -29,6 +29,9 @@ export const apiSlice = createApi({
         getProduct:builder.query({
             query: ()=> '/products/all'
         }),
+        myProduct:builder.query({
+            query: (email)=> `/paymentinformation/${email}`
+        }),
        
 
 
@@ -37,4 +40,4 @@ export const apiSlice = createApi({
 
 
 
-export const { useGetnavbarQuery, useGetCategoryQuery,useGetProductQuery ,useGetSingleCategoryQuery ,useGetAllProductsQuery} = apiSlice
+export const { useGetnavbarQuery, useGetCategoryQuery,useGetProductQuery ,useGetSingleCategoryQuery ,useGetAllProductsQuery,useMyProductQuery} = apiSlice

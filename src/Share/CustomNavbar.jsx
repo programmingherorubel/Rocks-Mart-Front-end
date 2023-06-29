@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { AiOutlineHeart, AiOutlineLogin, AiOutlineUser } from 'react-icons/ai';
 import { BsCart2, BsSearch } from 'react-icons/bs';
 import { FaBars } from 'react-icons/fa';
+import { BsFillCartPlusFill } from 'react-icons/bs';
 import { FiUser } from 'react-icons/fi';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -117,10 +118,13 @@ const CustomNavbar = () => {
                 <li className="mt-3" style={{ listStyle: 'none',position:'relative'}} onClick={()=>setUserSystem(!userSystem)}> 
                 <AiOutlineUser style={{ fontSize: '24px' }} />
                   {userSystem && <ul className='dropdownn list-group' style={{position:'absolute'}}>
-                    {user?.email ? <li class="list-group-item " style={{display:'flex',color:'tomato',fontWeight:'700'}} onClick={()=>logout()}>Logout <AiOutlineLogin style={{fontSize:'22px'}} /></li>
+
+                  <Link style={{textDecoration:'none'}} to='/myproduct'><li class="list-group-item " style={{display:'flex',fontWeight:'700'}} >My Order <BsFillCartPlusFill style={{fontSize:'22px'}}className='mx-2' /></li></Link>
+
+                    {user?.email ? <li class="list-group-item " style={{display:'flex',color:'tomato',fontWeight:'700'}} onClick={()=>logout()}>Logout <AiOutlineLogin style={{fontSize:'22px'}} className='mx-2'/></li>
                     :
                     <li class="list-group-item " style={{display:'flex'}}>
-                      <Link style={{textDecoration:'none',color:'black',fontWeight:'700',padding:'0px 5px'}} to='/login'>Login</Link> <AiOutlineLogin style={{fontSize:'22px',fontWeight:'700'}} />
+                      <Link style={{textDecoration:'none',color:'black',fontWeight:'700',padding:'0px 5px'}} to='/login'>Login</Link> <AiOutlineLogin style={{fontSize:'22px',fontWeight:'700'}}className='mx-2' />
                     </li>}
                     <li class="list-group-item " style={{display:'flex'}}>
                       <Link style={{textDecoration:'none',color:'black',fontWeight:'700',padding:'0px 5px'}} to='/registration'>Registration</Link> <FiUser style={{fontSize:'22px',fontWeight:'700'}} />

@@ -15,6 +15,8 @@ import SingleCategory from "../Pages/SingleCategory";
 import Wishlist from "../Pages/Wishlist";
 import Contact from "../Pages/Contact";
 import CheckOut from "../Components/CheckOut";
+import MyProduct from "../Dashbord/MyProduct";
+import MyProductsInformation from "../Dashbord/MyProductsInformation";
 
 
 const router = createBrowserRouter(
@@ -67,7 +69,16 @@ const router = createBrowserRouter(
                 {
                     path:'/checkout',
                     element:<CheckOut/>
-                }
+                },
+                {
+                    path:'/myproduct',
+                    element:<MyProduct></MyProduct>
+                },
+                {
+                    path:'/singleorder/:id',
+                    element:<MyProductsInformation></MyProductsInformation>,
+                    loader:({params})=>fetch(`http://localhost:9000/paymentinformation/single/${params.id}`)
+                },
             ]
         },
         {
@@ -82,6 +93,7 @@ const router = createBrowserRouter(
                     path:'/dashbord/addblogs',
                     element:<AddBlogs></AddBlogs>
                 },
+                
             ]
         }
     ]

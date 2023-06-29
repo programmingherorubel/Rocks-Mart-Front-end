@@ -22,7 +22,7 @@ const ProductDetail = () => {
         dispatch(addProduct(data))
     }
 
-    const img = singleproduct.img
+    const img = singleproduct?.img
     return (
         <Container>
             <Row className='mt-5'>
@@ -41,12 +41,12 @@ const ProductDetail = () => {
                     }} />
                 </Col>
                 <Col md={8}>
-                    <h4 style={{color:'gray'}}>{singleproduct.name}</h4>
+                    <h4 style={{color:'gray'}}>{singleproduct?.name}</h4>
                     <div onClick={()=>addToCart(singleproduct)}><button className='dashbordButton'>Add To Cart</button></div>
-                    <p style={{color:'gray'}}>{singleproduct.description}</p>
-                    <p><b>Price:</b> ${singleproduct.price}</p>
-                    <p><b>Category:</b> {singleproduct.category}</p>
-                    {singleproduct.discount && <p><b>Discount:</b> ${singleproduct.discount}</p>}
+                    <p style={{color:'gray'}}>{singleproduct?.description}</p>
+                    <p><b>Price:</b> ${singleproduct?.price}</p>
+                    <p><b>Category:</b> {singleproduct?.category}</p>
+                    {singleproduct?.discount && <p><b>Discount:</b> ${singleproduct?.discount}</p>}
                 </Col>
             </Row>
             <RecentProduct restrictedProduct={singleproduct} />

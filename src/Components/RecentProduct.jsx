@@ -29,16 +29,16 @@ const RecentProduct = ({ restrictedProduct }) => {
         content = <Error error='Thare was an error'/>
     }
 
-    if(!isLoading && !isError && data.length === 0){
+    if(!isLoading && !isError && data?.length === 0){
         content = <Error error='Data Not Found'/>
     }
 
-    if (!isLoading && !isError && data.length > 0) {
+    if (!isLoading && !isError && data?.length > 0) {
         content = data
           .filter(
             (product) =>
-              product.category === restrictedProduct.category &&
-              product._id !== restrictedProduct._id
+              product?.category === restrictedProduct?.category &&
+              product?._id !== restrictedProduct?._id
           )
           .map((product, index) => (
             <>

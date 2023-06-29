@@ -32,6 +32,9 @@ console.log(bilingsForm)
         <Container style={{ background: '#EFF1F5' }} className='pt-5 pb-5' fluid>
             
             <Row>
+            {bilingsForm &&  <Col md={6} className='mx-auto'>
+                    <BillingDetails></BillingDetails>
+                </Col>}
                 <Col md={6} className='mx-auto'>
                     <div style={{ background: 'white' }} className='m-3 p-3'>
                         <h2>Your Order</h2>
@@ -57,12 +60,9 @@ console.log(bilingsForm)
                         </div>
                     </div>
                 </Col>
+
             </Row>
-            {bilingsForm && <Row>
-                <Col md={6} className='mx-auto'>
-                    <BillingDetails></BillingDetails>
-                </Col>
-            </Row>}
+            
         </Container>
     );
 };
