@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { AiFillHome, AiOutlinePlusCircle } from 'react-icons/ai';
-import { BsCartCheckFill } from 'react-icons/bs';
+import { AiOutlineOrderedList } from 'react-icons/ai';
 import { Link, Outlet } from 'react-router-dom';
 import '../Style/Dashbord.css';
 
@@ -14,6 +14,7 @@ const Dashbord = () => {
     return (
         <>
         <Container fluid>
+           
             <Row>
                 <DashbordHeader setDashbordActive={setDashbordActive} dashbordActive={dashbordActive}></DashbordHeader>
                 <Col>
@@ -23,9 +24,8 @@ const Dashbord = () => {
 
                             <li className='mt-3' style={{listStyle:'none'}}><Link to='/dashbord/addproducts' style={{color:'white',fontWeight:'700',textDecoration:'none'}}><AiOutlinePlusCircle style={{fontSize:'22px'}} className='mx-2' />Add A Product</Link>
                             </li>
-
-                            <li className='mt-3' style={{listStyle:'none'}}><Link to='/dashbord/myproduct' style={{color:'white',fontWeight:'700',textDecoration:'none'}}><BsCartCheckFill style={{fontSize:'22px'}} className='mx-2' />My Products</Link>
-                            </li>
+                            
+                            <li style={{listStyle:'none'}} className='mt-3'><Link to='/dashbord/allorder' style={{color:'white',fontWeight:'700',textDecoration:'none'}}><AiOutlineOrderedList style={{fontSize:'22px'}} className='mx-2' />All Order</Link></li> 
 
 
                         </ul>

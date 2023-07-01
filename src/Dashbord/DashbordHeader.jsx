@@ -1,13 +1,12 @@
 import React, { useContext } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import userpic from  '../assets/user.png'
-import {AiOutlineBars} from 'react-icons/ai'
+import { Container, Row } from 'react-bootstrap';
+import { AiOutlineBars } from 'react-icons/ai';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 
 const DashbordHeader = ({dashbordActive,setDashbordActive}) => {
     const {user}= useContext(AuthContext)
     return (
-        <Container fluid className='header py-2' style={{background:'#001E3C'}}>
+        <Container fluid className='header py-2' style={{background:'#001E3C',position:'sticky',top:'0px',zIndex:'1000'}}>
             <Row>
                 <div style={{display:'flex',justifyContent:'space-between'}}>
                     <div className='d-flex'>

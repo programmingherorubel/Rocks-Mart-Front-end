@@ -33,7 +33,7 @@ const MyProductsInformation = () => {
       <Row>
         <Col>
         <div  style={{display:'flex',justifyContent:'space-between'}}>
-          <div><p style={{color:'gray',marginTop:'10px'}}><b className='mx-2'>Invoice Number</b>:{info[0]._id} </p>
+          <div><p style={{color:'gray',marginTop:'10px'}}><b className='mx-2'>Order Number</b>:{info[0]._id} </p>
         <p style={{color:'gray',marginTop:'10px'}}><b className='mx-2'>Invoice Number</b>:{info[0].transectionid} </p></div>
         <div>
       
@@ -50,7 +50,6 @@ const MyProductsInformation = () => {
                 <th className='border text-center'>Product Price</th>
                 <th className='border text-center'>Product Quantity</th>
                 <th className='border text-center'>Total Price</th>
-                <th className='border text-center'>Status</th>
               </tr>
             </thead>
             {
@@ -66,7 +65,7 @@ const MyProductsInformation = () => {
                   <td style={{ fontWeight: '700' }} className='border text-center'>
                     {item.price * item.quantity - item.discount * item.quantity}
                   </td>
-                  <td style={{ fontWeight: '700' }} className='border text-center'><button className='bg-success text-white btn'><b>{status}</b></button></td>
+                  
                 </tr>
               </tbody>)
             }

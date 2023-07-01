@@ -17,6 +17,7 @@ import Contact from "../Pages/Contact";
 import CheckOut from "../Components/CheckOut";
 import MyProduct from "../Dashbord/MyProduct";
 import MyProductsInformation from "../Dashbord/MyProductsInformation";
+import AllOrder from "../Dashbord/AllOrder";
 
 
 const router = createBrowserRouter(
@@ -92,6 +93,10 @@ const router = createBrowserRouter(
                 {
                     path:'/dashbord/addblogs',
                     element:<AddBlogs></AddBlogs>
+                },
+                {
+                    path:'/dashbord/allorder',
+                    element:<AllOrder></AllOrder>
                 },
                 
             ]
