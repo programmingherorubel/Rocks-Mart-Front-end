@@ -3,13 +3,19 @@ import { Col, Container, Row } from 'react-bootstrap';
 import DashbordButton from '../Dashbord/DashbordButton';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import { useForm } from 'react-hook-form';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const {loginuser} = useContext(AuthContext)
     const { register, handleSubmit } = useForm();
+    const location = useLocation()
+    const from = location.state?.from?.pathname || '/'
+    const navigate = useNavigate()
     const onSubmit = data => {
         loginuser(data.email,data.password)
+        navigate(from)
     }
+    console.log(location)
     return (
         <Container>
             <Row>

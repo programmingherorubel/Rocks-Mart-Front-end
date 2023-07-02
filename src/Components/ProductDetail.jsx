@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
 import ReactImageMagnify from 'react-image-magnify';
-import RecentProduct from './RecentProduct';
 import { useDispatch } from 'react-redux';
+import { useParams } from 'react-router-dom';
 import { addProduct } from '../app/featchers/CartSlice';
-import DashbordButton from '../Dashbord/DashbordButton';
+import RecentProduct from './RecentProduct';
 
 
 const ProductDetail = () => {
     const { id } = useParams()
+    
+    
     const [singleproduct, setSingleProduct] = useState({})
     const dispatch = useDispatch()
 

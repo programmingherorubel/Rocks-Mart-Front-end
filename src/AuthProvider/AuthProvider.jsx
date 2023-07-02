@@ -14,8 +14,6 @@ const AuthProvider = ({ children }) => {
 
     // webUser 
     const newuser = (email,password,name,photo) => {
-        
-        setLoading(true)
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 const user = result.user;
@@ -35,7 +33,6 @@ const AuthProvider = ({ children }) => {
                     progress: undefined,
                     theme: "colored",
                     });
-                  setLoading(false)
             })
             .catch((error) => {
                 const errorMessage = error.message;
@@ -89,10 +86,8 @@ const AuthProvider = ({ children }) => {
 
 
     useEffect(() => {
-        setLoading(true)
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             setUser(user);
-            setLoading(false)
         });
         return () => {
             return unsubscribe();

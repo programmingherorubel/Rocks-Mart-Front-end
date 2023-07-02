@@ -18,6 +18,7 @@ import Login from "../Pages/Login";
 import Reg from "../Pages/Reg";
 import SingleCategory from "../Pages/SingleCategory";
 import Wishlist from "../Pages/Wishlist";
+import RequiredRoute from "./RequiredRoute";
 
 
 const router = createBrowserRouter(
@@ -33,7 +34,7 @@ const router = createBrowserRouter(
                 },
                 {
                     path:'/shop',
-                    element:<Shop/>
+                    element:<RequiredRoute><Shop/></RequiredRoute>
                 },
                 {
                     path:'/about',
@@ -41,7 +42,7 @@ const router = createBrowserRouter(
                 },
                 {
                     path:'/cart',
-                    element:<Cart/>
+                    element:<RequiredRoute><Cart/></RequiredRoute>
                 },
                 {
                     path:'/wishlist',
@@ -57,7 +58,7 @@ const router = createBrowserRouter(
                 },
                 {
                     path:'/single/:id',
-                    element:<ProductDetail/>
+                    element:<RequiredRoute><ProductDetail/></RequiredRoute>
                 },
                 {
                     path:'/login',
@@ -69,7 +70,7 @@ const router = createBrowserRouter(
                 },
                 {
                     path:'/checkout',
-                    element:<CheckOut/>
+                    element:<RequiredRoute><CheckOut/></RequiredRoute>
                 },
                 {
                     path:'/myproduct',

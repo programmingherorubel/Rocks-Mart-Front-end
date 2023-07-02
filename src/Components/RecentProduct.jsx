@@ -51,7 +51,7 @@ const RecentProduct = ({ restrictedProduct }) => {
                 <img src={product.img} style={{ height: '230px' }} className='image__img img-fluid' alt="" />
                 <div className='overlay overlay--blur'>
                     <ul style={{ display: 'flex', gap: '30px' }}>
-                        <li style={{ listStyle: 'none', cursor: 'pointer' }}><FiShoppingCart style={{ fontSize: '24px' }} /></li>
+                        <li onClick={()=>addToCart(product)} style={{ listStyle: 'none', cursor: 'pointer' }}><FiShoppingCart style={{ fontSize: '24px' }} /></li>
                         <li onClick={()=>wishlist(product)} style={{ listStyle: 'none', cursor: 'pointer' }}><BsHeart style={{ fontSize: '24px' }} /></li>
                         <Link style={{color:'white'}} to={`/single/${product._id}`}><li  style={{ listStyle: 'none', cursor: 'pointer' }}><AiFillEye style={{ fontSize: '24px' }} /></li></Link>
                     </ul>
