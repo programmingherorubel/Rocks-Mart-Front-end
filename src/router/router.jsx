@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Cart from "../Components/Cart";
+import CheckOut from "../Components/CheckOut";
 import Home from "../Components/Home";
 import Main from "../Components/Main";
 import NotFound from "../Components/NotFound";
@@ -7,17 +8,16 @@ import ProductDetail from "../Components/ProductDetail";
 import Shop from "../Components/Shop";
 import AddBlogs from "../Dashbord/AddBlogs";
 import AddProducts from "../Dashbord/AddProducts";
+import AllOrder from "../Dashbord/AllOrder";
 import Dashbord from "../Dashbord/Dashbord";
-import AboutUs from '../Pages/AboutUs'
+import MyProduct from "../Dashbord/MyProduct";
+import MyProductsInformation from "../Dashbord/MyProductsInformation";
+import AboutUs from '../Pages/AboutUs';
+import Contact from "../Pages/Contact";
 import Login from "../Pages/Login";
 import Reg from "../Pages/Reg";
 import SingleCategory from "../Pages/SingleCategory";
 import Wishlist from "../Pages/Wishlist";
-import Contact from "../Pages/Contact";
-import CheckOut from "../Components/CheckOut";
-import MyProduct from "../Dashbord/MyProduct";
-import MyProductsInformation from "../Dashbord/MyProductsInformation";
-import AllOrder from "../Dashbord/AllOrder";
 
 
 const router = createBrowserRouter(

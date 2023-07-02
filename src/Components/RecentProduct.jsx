@@ -11,6 +11,7 @@ import { BsHeart } from 'react-icons/bs';
 import { FiShoppingCart } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import DashbordButton from '../Dashbord/DashbordButton';
+import { addWishlist } from '../app/featchers/wishlistSlice';
 
 const RecentProduct = ({ restrictedProduct }) => {
     const { data,isError,isLoading } = useGetProductQuery();
@@ -19,7 +20,11 @@ const RecentProduct = ({ restrictedProduct }) => {
         dispatch(addProduct(data))
     }
     let content = null
-    let newarray = []
+    
+
+    const wishlist  = (data)=>{
+        dispatch(addWishlist(data))
+    }
 
     if(isLoading){
         content = <Loading/>
@@ -47,7 +52,7 @@ const RecentProduct = ({ restrictedProduct }) => {
                 <div className='overlay overlay--blur'>
                     <ul style={{ display: 'flex', gap: '30px' }}>
                         <li style={{ listStyle: 'none', cursor: 'pointer' }}><FiShoppingCart style={{ fontSize: '24px' }} /></li>
-                        <li style={{ listStyle: 'none', cursor: 'pointer' }}><BsHeart style={{ fontSize: '24px' }} /></li>
+                        <li onClick={()=>wishlist(product)} style={{ listStyle: 'none', cursor: 'pointer' }}><BsHeart style={{ fontSize: '24px' }} /></li>
                         <Link style={{color:'white'}} to={`/single/${product._id}`}><li  style={{ listStyle: 'none', cursor: 'pointer' }}><AiFillEye style={{ fontSize: '24px' }} /></li></Link>
                     </ul>
                 </div>

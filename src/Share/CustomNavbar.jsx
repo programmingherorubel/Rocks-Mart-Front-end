@@ -11,7 +11,7 @@ import { AuthContext } from '../AuthProvider/AuthProvider';
 import Error from '../Components/Error';
 import Loading from '../Components/Loading';
 import '../Style/CustomNavbar.css';
-import { useGetnavbarQuery } from '../app/featchers/api/apiSlice';
+import { useGetnavbarQuery, useMyWishlitQuery } from '../app/featchers/api/apiSlice';
 
 const CustomNavbar = () => {
   
@@ -20,6 +20,8 @@ const CustomNavbar = () => {
   const {user,logout}= useContext(AuthContext)
   const [userSystem,setUserSystem]=useState(false)
   const { products } = useSelector(state => state.products)
+  const { wishlist } = useSelector(state => state.wishlist)
+    
 
   let myNavigation = null
   let mobileMenu = null
@@ -109,11 +111,11 @@ const CustomNavbar = () => {
                 
                 <li className="mt-3" style={{ listStyle: 'none' ,position:'relative'}}>
                   <Link to='/cart' style={{color:'black'}}><BsCart2 style={{ fontSize: '24px' }} /></Link>
-                  <p style={{position:'absolute',top:'-15px',right:'-4px',color:'white',color:'tomato'}}><b>{products.length}</b></p>
+                  <p style={{position:'absolute',top:'-15px',right:'-4px',color:'white',color:'tomato'}}><b>{products?.length}</b></p>
                 </li>
                 <li className="mt-3" style={{ listStyle: 'none' ,position:'relative'}}>
                   <Link to='/wishlist' style={{color:'black'}}><AiOutlineHeart style={{ fontSize: '24px' }} /></Link>
-                  <p style={{position:'absolute',top:'-15px',right:'-4px',color:'white',color:'tomato'}}></p>
+                  <p style={{position:'absolute',top:'-15px',right:'-4px',color:'white',color:'tomato'}}><b>{wishlist?.length}</b></p>
                 </li>
                 <li className="mt-3" style={{ listStyle: 'none',position:'relative'}} onClick={()=>setUserSystem(!userSystem)}> 
                 <AiOutlineUser style={{ fontSize: '24px' }} />

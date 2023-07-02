@@ -40,10 +40,13 @@ export const apiSlice = createApi({
         review:builder.query({
             query: ()=> `/review`
         }),
+        myWishlit:builder.query({
+            query: (email)=> `/wishlist/${email}`
+        }),
 
     }),
 });
 
 
 
-export const { useGetnavbarQuery, useGetCategoryQuery,useGetProductQuery ,useGetSingleCategoryQuery ,useGetAllProductsQuery,useMyProductQuery,useAllOrderQuery,useReviewQuery} = apiSlice
+export const { useGetnavbarQuery, useGetCategoryQuery,useGetProductQuery ,useGetSingleCategoryQuery ,useGetAllProductsQuery,useMyProductQuery,useAllOrderQuery,useReviewQuery,useMyWishlitQuery} = apiSlice

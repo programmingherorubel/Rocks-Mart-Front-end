@@ -30,7 +30,7 @@ const productsSlice = createSlice({
                     position: "top-center",
                     autoClose: 2000,
                     hideProgressBar: false,
-                    closeOnClick: true,
+                    closeOnClick: true, 
                     pauseOnHover: true,
                     draggable: true,
                     progress: undefined,
@@ -62,10 +62,13 @@ const productsSlice = createSlice({
             ...state,
             products:myData
           }
-        }
+        },
+        deleteAllProducts: (state) => {
+            state.products = [];
+          },
     }
 
 });
 
-export const { addProduct,incrementQuantity ,decrementQuantity,deleteProduct} = productsSlice.actions;
+export const { addProduct,incrementQuantity ,decrementQuantity,deleteProduct,deleteAllProducts} = productsSlice.actions;
 export default productsSlice.reducer;
