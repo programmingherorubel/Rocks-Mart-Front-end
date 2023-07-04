@@ -25,7 +25,7 @@ const MyProduct = () => {
             email:user?.email,
             review:textvalue
         }
-        fetch(`http://localhost:9000/review`,{
+        fetch(`https://best-server-five.vercel.app/review`,{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'

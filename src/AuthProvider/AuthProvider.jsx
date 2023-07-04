@@ -1,7 +1,7 @@
+import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import React, { createContext, useEffect, useState } from 'react';
-import { createUserWithEmailAndPassword, signInWithPopup,getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile, GoogleAuthProvider } from "firebase/auth";
-import { app } from '../Firebase/FirebaseConfig'
 import { toast } from 'react-toastify';
+import { app } from '../Firebase/FirebaseConfig';
 
 
 export const AuthContext = createContext(null)
@@ -14,7 +14,7 @@ const AuthProvider = ({ children }) => {
     const [admin,setAdmin]=useState(false)
 
     useEffect(()=>{
-        fetch(`http://localhost:9000/users/${user?.email}`)
+        fetch(`https://best-server-five.vercel.app/users/${user?.email}`)
         .then(res => res.json())
         .then(data => setAdmin(data))
     },[user?.email])
@@ -35,7 +35,7 @@ const AuthProvider = ({ children }) => {
                             img:user?.photoURL
                         }
                         console.log(information)
-                        fetch(`http://localhost:9000/users`,{
+                        fetch(`https://best-server-five.vercel.app/users`,{
                             method:'POST',
                             headers:{
                                 'content-type': 'application/json'
@@ -155,7 +155,7 @@ const AuthProvider = ({ children }) => {
                 img:user?.photoURL
             }
             console.log(information)
-            fetch(`http://localhost:9000/users`,{
+            fetch(`https://best-server-five.vercel.app/users`,{
                 method:'POST',
                 headers:{
                     'content-type': 'application/json'

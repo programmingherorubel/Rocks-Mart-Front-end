@@ -15,7 +15,7 @@ const ProductDetail = () => {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        fetch(`http://localhost:9000/products/single/${id}`)
+        fetch(`https://best-server-five.vercel.app/products/single/${id}`)
             .then(res => res.json())
             .then(data => setSingleProduct(data))
     }, [id])

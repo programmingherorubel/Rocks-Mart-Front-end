@@ -1,15 +1,15 @@
 import React from 'react';
 import { Col, Container, Row, Table } from 'react-bootstrap';
-import { useWebUserQuery } from '../app/featchers/api/apiSlice';
-import Loading from '../Components/Loading';
 import Error from '../Components/Error';
+import Loading from '../Components/Loading';
+import { useWebUserQuery } from '../app/featchers/api/apiSlice';
 
 const WebUser = () => {
     const { isLoading, data, isError,refetch } = useWebUserQuery()
     let content = null
 
     const createAdmin = (email)=>{
-        fetch(`http://localhost:9000/users/admin/${email}`,{
+        fetch(`https://best-server-five.vercel.app/users/admin/${email}`,{
             method:'PUT',
         })
         .then(res => res.json())

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import { AuthContext } from '../AuthProvider/AuthProvider';
 import { useForm } from 'react-hook-form';
-import { toast } from 'react-toastify';
 import { useDispatch } from 'react-redux';
+import { toast } from 'react-toastify';
+import { AuthContext } from '../AuthProvider/AuthProvider';
 import { deleteAllProducts } from '../app/featchers/CartSlice';
 
 const BillingDetails = () => {
@@ -14,7 +14,7 @@ const BillingDetails = () => {
       };
       
     const onSubmit = data => {
-        fetch(`http://localhost:9000/billingaddress`,{
+        fetch(`https://best-server-five.vercel.app/billingaddress`,{
             method:'POST',
             headers:{
                 'content-type': 'application/json'

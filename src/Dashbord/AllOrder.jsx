@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { useAllOrderQuery } from '../app/featchers/api/apiSlice';
-import Loading from '../Components/Loading';
-import Error from '../Components/Error';
-import { Col, Container, Row, Table } from 'react-bootstrap';
 import moment from 'moment';
+import React from 'react';
+import { Col, Container, Row, Table } from 'react-bootstrap';
+import Error from '../Components/Error';
+import Loading from '../Components/Loading';
+import { useAllOrderQuery } from '../app/featchers/api/apiSlice';
 
 const AllOrder = () => {
     const {isLoading,data,isError,refetch} = useAllOrderQuery()
@@ -12,7 +12,7 @@ const AllOrder = () => {
     let content = null;
 
         const updateOrder = (id)=>{
-            fetch(`http://localhost:9000/paymentinformation/${id}`,{
+            fetch(`https://best-server-five.vercel.app/paymentinformation/${id}`,{
                 method:'PATCH',
             })
             .then(res => res.json())
@@ -24,7 +24,7 @@ const AllOrder = () => {
     
 
         const updateOrderpending = (id)=>{
-            fetch(`http://localhost:9000/paymentinformation/pending/${id}`,{
+            fetch(`https://best-server-five.vercel.app/paymentinformation/pending/${id}`,{
                 method:'PATCH',
             })
             .then(res => res.json())
@@ -35,7 +35,7 @@ const AllOrder = () => {
         }
 
         const reviewOn = (id)=>{
-            fetch(`http://localhost:9000/paymentinformation/on/${id}`,{
+            fetch(`https://best-server-five.vercel.app/paymentinformation/on/${id}`,{
                 method:'PUT',
             })
             .then(res => res.json())
@@ -45,7 +45,7 @@ const AllOrder = () => {
             })
         }
         const reviewoff = (id)=>{
-            fetch(`http://localhost:9000/paymentinformation/off/${id}`,{
+            fetch(`https://best-server-five.vercel.app/paymentinformation/off/${id}`,{
                 method:'PUT',
             })
             .then(res => res.json())

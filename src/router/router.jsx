@@ -12,15 +12,15 @@ import AllOrder from "../Dashbord/AllOrder";
 import Dashbord from "../Dashbord/Dashbord";
 import MyProduct from "../Dashbord/MyProduct";
 import MyProductsInformation from "../Dashbord/MyProductsInformation";
+import WebUser from "../Dashbord/WebUser";
 import AboutUs from '../Pages/AboutUs';
 import Contact from "../Pages/Contact";
 import Login from "../Pages/Login";
 import Reg from "../Pages/Reg";
 import SingleCategory from "../Pages/SingleCategory";
 import Wishlist from "../Pages/Wishlist";
-import RequiredRoute from "./RequiredRoute";
-import WebUser from "../Dashbord/WebUser";
 import Admin from "./Admin";
+import RequiredRoute from "./RequiredRoute";
 
 
 const router = createBrowserRouter(
@@ -81,7 +81,7 @@ const router = createBrowserRouter(
                 {
                     path:'/singleorder/:id',
                     element:<MyProductsInformation></MyProductsInformation>,
-                    loader:({params})=>fetch(`http://localhost:9000/paymentinformation/single/${params.id}`)
+                    loader:({params})=>fetch(`https://best-server-five.vercel.app/paymentinformation/single/${params.id}`)
                 },
             ]
         },

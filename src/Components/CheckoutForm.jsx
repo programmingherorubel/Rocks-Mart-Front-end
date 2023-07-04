@@ -18,7 +18,7 @@ const CheckoutForm = ({ price, setBilingsForm,products }) => {
 
     useEffect(() => {
         axios
-            .post("http://localhost:9000/create-payment-intent", {
+            .post("https://best-server-five.vercel.app/create-payment-intent", {
                 price,
             })
             .then((res) => setClientSecret(res.data.clientSecret));
@@ -94,7 +94,7 @@ const CheckoutForm = ({ price, setBilingsForm,products }) => {
                 status:'pending'
             }
             console.log(payment)
-            fetch(`http://localhost:9000/paymentinformation`,{
+            fetch(`https://best-server-five.vercel.app/paymentinformation`,{
                 method:'POST',
                 headers:{
                     'content-type': 'application/json'

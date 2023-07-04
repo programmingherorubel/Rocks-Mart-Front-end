@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Title from './Title';
-import DashbordButton from './DashbordButton';
 import { useForm } from 'react-hook-form';
+import DashbordButton from './DashbordButton';
+import Title from './Title';
 
 const AddBlogs = () => {
     const { register, handleSubmit } = useForm();
@@ -24,7 +24,7 @@ const AddBlogs = () => {
                     description:data.description,
                     img:photo
                 }
-                fetch(`http://localhost:9000/blogs`,{
+                fetch(`https://best-server-five.vercel.app/blogs`,{
                     method:'POST',
                     headers:{
                         'content-type':'application/json'

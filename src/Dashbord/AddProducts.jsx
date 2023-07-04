@@ -29,7 +29,7 @@ const AddProducts = () => {
                 description:data.description,
                 category:data.category,
             }
-            fetch(`http://localhost:9000/products`,{
+            fetch(`https://best-server-five.vercel.app/products`,{
                 method:'POST',
                 headers:{
                     'content-type':'application/json'
