@@ -9,6 +9,8 @@ import '../Style/RecentAndDiscount.css'
 const RecentAndDiscount = () => {
     const [tabData,setTabData]= useState('watter-Bottol')
     const {isLoading,isError,data}=useGetProductQuery()
+
+    
     let content = null
 
     if (isLoading) {

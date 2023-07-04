@@ -1,4 +1,4 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react"
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react";
 
 
 
@@ -43,10 +43,13 @@ export const apiSlice = createApi({
         myWishlit:builder.query({
             query: (email)=> `/wishlist/${email}`
         }),
+        webUser:builder.query({
+            query: ()=> `/users`
+        }),
 
     }),
 });
 
 
 
-export const { useGetnavbarQuery, useGetCategoryQuery,useGetProductQuery ,useGetSingleCategoryQuery ,useGetAllProductsQuery,useMyProductQuery,useAllOrderQuery,useReviewQuery,useMyWishlitQuery} = apiSlice
+export const { useGetnavbarQuery, useGetCategoryQuery,useGetProductQuery ,useGetSingleCategoryQuery ,useGetAllProductsQuery,useMyProductQuery,useAllOrderQuery,useReviewQuery,useMyWishlitQuery,useWebUserQuery} = apiSlice

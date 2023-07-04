@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithPopup,getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile, GoogleAuthProvider } from "firebase/auth";
 import { app } from '../Firebase/FirebaseConfig'
 import { toast } from 'react-toastify';
 
@@ -9,7 +9,15 @@ const AuthProvider = ({ children }) => {
     const [user, setUser] = useState({})
     const [error, setError] = useState('')
     const [loading, setLoading] = useState(false)
+    const provider = new GoogleAuthProvider();
     const auth = getAuth(app);
+    const [admin,setAdmin]=useState(false)
+
+    useEffect(()=>{
+        fetch(`http://localhost:9000/users/${user?.email}`)
+        .then(res => res.json())
+        .then(data => setAdmin(data))
+    },[user?.email])
 
 
     // webUser 
@@ -20,9 +28,28 @@ const AuthProvider = ({ children }) => {
                 updateProfile(auth.currentUser, {
                     displayName: name, photoURL: photo
                   }).then(() => {
+                     //   save database user 
+                        const information = {
+                            name:user?.displayName,
+                            email:user?.email,
+                            img:user?.photoURL
+                        }
+                        console.log(information)
+                        fetch(`http://localhost:9000/users`,{
+                            method:'POST',
+                            headers:{
+                                'content-type': 'application/json'
+                            },
+                            body:JSON.stringify(information)
+                        })
+                        .then(res => res.json())
+                        .then(data => data)
+            // //   save database user 
                   }).catch((error) => {
                   });
-                  setUser(user)
+                  
+                setUser(user)
+                  
                   toast.success('New User Create Successfull', {
                     position: "top-center",
                     autoClose: 3000,
@@ -88,6 +115,7 @@ const AuthProvider = ({ children }) => {
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             setUser(user);
+            
         });
         return () => {
             return unsubscribe();
@@ -112,6 +140,36 @@ const AuthProvider = ({ children }) => {
         });
     }
 
+     // google Sing in 
+     const googleSingIn = ()=>{
+        setLoading(true)
+        signInWithPopup(auth, provider)
+        .then((result) => {
+            const user = result.user;
+            setUser(user)
+            //   save database user 
+            const information = {
+                name:user?.displayName,
+                email:user?.email,
+                img:user?.photoURL
+            }
+            console.log(information)
+            fetch(`http://localhost:9000/users`,{
+                method:'POST',
+                headers:{
+                    'content-type': 'application/json'
+                },
+                body:JSON.stringify(information)
+            })
+            .then(res => res.json())
+            .then(data => data)
+            //   save database user 
+            setLoading(false)
+        }).catch((error) => {
+            const errorMessage = error.message;
+            setError(errorMessage)
+        });
+    }
 
     const information = {
         newuser,
@@ -119,7 +177,9 @@ const AuthProvider = ({ children }) => {
         logout,
         user,
         error,
-        loading
+        loading,
+        googleSingIn,
+        admin
     }
     return (
         <AuthContext.Provider value={information}>

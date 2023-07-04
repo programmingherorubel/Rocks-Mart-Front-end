@@ -2,10 +2,17 @@ import React, { useContext } from 'react';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
+import { useDispatch } from 'react-redux';
+import { deleteAllProducts } from '../app/featchers/CartSlice';
 
 const BillingDetails = () => {
     const { user } = useContext(AuthContext)
+    const dispatch = useDispatch()
     const { register, handleSubmit ,reset} = useForm();
+    const handleDeleteAll = () => {
+        dispatch(deleteAllProducts());
+      };
+      
     const onSubmit = data => {
         fetch(`http://localhost:9000/billingaddress`,{
             method:'POST',
@@ -51,7 +58,7 @@ const BillingDetails = () => {
                     </div>
                     <input {...register("email", { required: true })} type="email" className='rounded-0 form-control mt-3 p-2' value={user?.email} />
                     <textarea {...register("description", { required: true })} rows={6} type="text" className='rounded-0 form-control mt-4 p-3' placeholder='Description' />
-                    <div className='text-center'><button type='submit' className='dashbordButton'>Submit</button></div>
+                    <div onClick={()=>handleDeleteAll()} className='text-center'><button type='submit' className='dashbordButton'>Submit</button></div>
                 </form>
             </div>
         </>

@@ -17,7 +17,7 @@ const MyProduct = () => {
     const [textvalue,setTextValue]=useState('')
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
+    console.log(data)
     const handelSubmit = (e)=>{
         const information = {
             name:user?.displayName,

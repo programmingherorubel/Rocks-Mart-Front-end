@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
-    const {loginuser} = useContext(AuthContext)
+    const {loginuser,googleSingIn} = useContext(AuthContext)
     const { register, handleSubmit } = useForm();
     const location = useLocation()
     const from = location.state?.from?.pathname || '/'
@@ -15,7 +15,11 @@ const Login = () => {
         loginuser(data.email,data.password)
         navigate(from)
     }
-    console.log(location)
+   
+    const googleLogin = ()=>{
+        googleSingIn()
+        navigate(from)
+    }
     return (
         <Container>
             <Row>
@@ -33,6 +37,7 @@ const Login = () => {
                         <input {...register("password", { required: true})}  placeholder='Enter Your Password' type='password' className='form-control mt-3 p-3'/>
                         
                         <div><DashbordButton title='Login' /></div>
+                        <div onClick={()=>googleLogin()}><DashbordButton title='Sign In With Google' /></div>
                     </form>
                 </Col>
             </Row>

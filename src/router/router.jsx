@@ -19,6 +19,8 @@ import Reg from "../Pages/Reg";
 import SingleCategory from "../Pages/SingleCategory";
 import Wishlist from "../Pages/Wishlist";
 import RequiredRoute from "./RequiredRoute";
+import WebUser from "../Dashbord/WebUser";
+import Admin from "./Admin";
 
 
 const router = createBrowserRouter(
@@ -85,7 +87,7 @@ const router = createBrowserRouter(
         },
         {
             path:'/dashbord',
-            element:<Dashbord></Dashbord>,
+            element:<Admin><Dashbord /></Admin>,
             children:[
                 {
                     path:'/dashbord/addproducts',
@@ -98,6 +100,10 @@ const router = createBrowserRouter(
                 {
                     path:'/dashbord/allorder',
                     element:<AllOrder></AllOrder>
+                },
+                {
+                    path:'/dashbord/webuser',
+                    element:<WebUser></WebUser>
                 },
                 
             ]

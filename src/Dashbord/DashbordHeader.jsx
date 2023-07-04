@@ -19,7 +19,7 @@ const DashbordHeader = ({dashbordActive,setDashbordActive}) => {
                         </h4>
                         </div>
                     </div>
-                  <img src={user?.imgURL} style={{width:'50px',height:'50px',borderRadius:'50%'}} alt="" />
+                  <img src={user?.photoURL} style={{width:'50px',height:'50px',borderRadius:'50%'}} alt="" />
                 </div>
             </Row>
         </Container>

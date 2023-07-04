@@ -27,6 +27,18 @@ const Product = ({ product }) => {
         dispatch(addWishlist(data))
     }
 
+    const loginAlart = ()=>{
+        toast.warning('You cannot add a product while logged in', {
+            position: "top-center",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true, 
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
+    }
     
    
     return (
@@ -35,7 +47,9 @@ const Product = ({ product }) => {
                 <img src={product.img} style={{ height: '230px' }} className='image__img img-fluid' alt="" />
                 <div className='overlay overlay--blur'>
                     <ul style={{ display: 'flex', gap: '30px' }}>
-                        <li onClick={()=>addToCart(product)} style={{ listStyle: 'none', cursor: 'pointer' }}><FiShoppingCart style={{ fontSize: '24px' }} /></li>
+                       {user?.email ?  <li onClick={()=>addToCart(product)} style={{ listStyle: 'none', cursor: 'pointer' }}><FiShoppingCart style={{ fontSize: '24px' }} /></li>
+                        :
+                        <li onClick={loginAlart} style={{ listStyle: 'none', cursor: 'pointer' }}><FiShoppingCart style={{ fontSize: '24px' }} /></li>}
                         <li onClick={()=>wishlist(product)} style={{ listStyle: 'none', cursor: 'pointer' }}><BsHeart style={{ fontSize: '24px' }} /></li>
                         <Link style={{color:'white'}} to={`/single/${product._id}`}><li  style={{ listStyle: 'none', cursor: 'pointer' }}><AiFillEye style={{ fontSize: '24px' }} /></li></Link>
                     </ul>
@@ -46,7 +60,9 @@ const Product = ({ product }) => {
                 <p style={{ color: 'tomato', fontWeight: '700' }}>$ {product.price}</p>
             </div>
             {product?.discount && <h5 style={{ color: 'white', position: 'absolute', top: '0px', right: '15px', padding: '10px', background: 'tomato', height: '60px', width: '60px', borderRadius: '50%' }}>{product?.discount}% Off</h5>}
-            <div onClick={()=>addToCart(product)}><DashbordButton title='Add To Cart'></DashbordButton></div>
+            {user?.email ? <div onClick={()=>addToCart(product)}><DashbordButton title='Add To Cart'></DashbordButton></div>
+            :
+            <div onClick={loginAlart}><DashbordButton title='Add To Cart'></DashbordButton></div>}
         </Col>
     );
 };

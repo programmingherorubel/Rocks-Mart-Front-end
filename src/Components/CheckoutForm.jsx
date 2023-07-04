@@ -1,10 +1,9 @@
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 import { AuthContext } from '../AuthProvider/AuthProvider';
-import { useDispatch } from 'react-redux';
-import {deleteAllProducts} from '../app/featchers/CartSlice'
 
 const CheckoutForm = ({ price, setBilingsForm,products }) => {
     const stripe = useStripe()
@@ -110,9 +109,7 @@ const CheckoutForm = ({ price, setBilingsForm,products }) => {
 
     const dispatch = useDispatch();
 
-  const handleDeleteAll = () => {
-    dispatch(deleteAllProducts());
-  };
+ 
 
 
     return (
@@ -133,7 +130,7 @@ const CheckoutForm = ({ price, setBilingsForm,products }) => {
                     },
                 }}
             />
-            <button onClick={()=>handleDeleteAll()} type="submit" className='mt-5 w-100 dashbordButton' disabled={!stripe || !clientSecret}>
+            <button  type="submit" className='mt-5 w-100 dashbordButton' disabled={!stripe || !clientSecret}>
                 {procecing ? 'processing' : 'Pay'}
             </button>
             {error && <h6 className='text-danger text-center'>{error}</h6>}
