@@ -29,25 +29,25 @@ const Footer = () => {
 
                 </Col>
                 <Col md={4} lg={3} sm={6}>
-                    <h2 className='text-center'>Information</h2>
+                    <h4 className='mt-4' style={{marginLeft:'30px'}}>Information</h4>
                     <ul >
-                        <li style={{listStyle:'none',textAlign:'center',marginTop:'5px',fontWeight:'600'}}>Over View</li>
-                        <li style={{listStyle:'none',textAlign:'center',marginTop:'5px',fontWeight:'600'}}>Product promotion</li>
-                        <li style={{listStyle:'none',textAlign:'center',marginTop:'5px',fontWeight:'600'}}>Wishlist Product</li>
-                        <li style={{listStyle:'none',textAlign:'center',marginTop:'5px',fontWeight:'600'}}>Payment History</li>
+                        <li style={{listStyle:'none',marginTop:'5px',fontWeight:'600'}}>Over View</li>
+                        <li style={{listStyle:'none',marginTop:'5px',fontWeight:'600'}}>Product promotion</li>
+                        <li style={{listStyle:'none',marginTop:'5px',fontWeight:'600'}}>Wishlist Product</li>
+                        <li style={{listStyle:'none',marginTop:'5px',fontWeight:'600'}}>Payment History</li>
                     </ul>
                 </Col>
                 <Col md={4} lg={3} sm={6}>
-                    <h2 className='text-center'>Pages</h2>
+                    <h4 className='mt-4' style={{marginLeft:'30px'}}>Pages</h4>
                     <ul >
-                        <li style={{listStyle:'none',textAlign:'center',marginTop:'5px',fontWeight:'600'}}>About Us</li>
-                        <li style={{listStyle:'none',textAlign:'center',marginTop:'5px',fontWeight:'600'}}>Contact Us</li>
-                        <li style={{listStyle:'none',textAlign:'center',marginTop:'5px',fontWeight:'600'}}>Your Order</li>
-                        <li style={{listStyle:'none',textAlign:'center',marginTop:'5px',fontWeight:'600'}}>Order Product History</li>
+                        <li style={{listStyle:'none',marginTop:'5px',fontWeight:'600'}}>About Us</li>
+                        <li style={{listStyle:'none',marginTop:'5px',fontWeight:'600'}}>Contact Us</li>
+                        <li style={{listStyle:'none',marginTop:'5px',fontWeight:'600'}}>Your Order</li>
+                        <li style={{listStyle:'none',marginTop:'5px',fontWeight:'600'}}>Order Product History</li>
                     </ul>
                 </Col>
                 <Col md={4} lg={3} sm={6}>
-                    <h2 cl>Social Links</h2>
+                    <h4 className='mt-4' style={{marginLeft:'30px'}} >Social Links</h4>
                     <ul style={{ display: 'flex',alignItems:'center' }}>
                         <li style={{ listStyle: 'none' }} className='mx-2'>
                             <CiFacebook style={{ color: facebookColor, fontSize: '22px' }} />
